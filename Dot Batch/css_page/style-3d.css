@@ -1,0 +1,77 @@
+/* p{
+    position: static;
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+/* relative positioning */
+/*.box{
+    position: relative;
+    left: 15px;
+    top: 15px
+} */
+
+div{
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+/* relative positioning */
+#box3{
+    /* position: relative; */
+    /* position: absolute;
+    top: 60px;
+    left: 50px; */
+    color: red;
+    position: relative;
+    left: 1304px;
+}
+/* #box1{
+    position: fixed;
+} */
+#box4{
+    /* position: sticky;
+    top: 0px; */
+    color: blue;
+    position: relative;
+    left: 1198px;
+    top: 639px;
+}
+.wrapper{
+    height: 740px;
+    width: 1510px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#box1{
+    color: coral;
+    position: fixed;
+    /* bottom: 5px; */
+    /* right: 5px; */
+}
+
+#box2{
+    color:green;
+    position: relative;
+    top:640px;
+}
+#box5{
+    color:black;
+    position: relative;
+    top:320px;
+    left: 400px;
+}
+
+.translated{
+    transform: perspective(25px) translateZ(-10px);
+}
+.scaled{
+    margin: 200px;
+    transform: perspective(35px) scale(0.5) rotateX(30deg);
+}

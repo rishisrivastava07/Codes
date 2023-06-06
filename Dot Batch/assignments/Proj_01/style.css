@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden ;
+    overflow-y: auto;
+    perspective: 15px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.bckgrd{
+    transform: translateZ(-40px) scale(5);
+}
+.fregrd{
+    transform: translateZ(-20px) scale(5);
+}
+.bckgrd,.fregrd{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
